@@ -1,0 +1,7 @@
+<div class="sentence-wrapper">
+    @for (char of inputSentence(); track $index) {
+        <span class="char" [ngClass]="applyCharClasses($index)">{{
+            char
+        }}</span>
+    }
+</div>

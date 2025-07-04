@@ -3,61 +3,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-
-.keyboard {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border: solid;
-    padding: 10px;
-
-}
-
-.row {
-    display: flex;
-    gap: 10px;
-}
-
-.key {
-    border: solid;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-
-.pressed {
-    background-color: rgb(189, 189, 189);
-
-}
-
-
-// irregular keys
-
-.tab,
-.lshift,
-.caps {
-    text-align: left;
-}
-
-.rshift {
-    text-align: end;
-}
-
-
-
-.space {
-    width: 250px;
-}
-
-.tab {
-    width: 70px;
-}
-
-.caps {
-    width: 85px;
-}
-
-.lshift,
-.rshift {
-    width: 110px;
+    margin: 50px;
+    gap: 50px;
 }

@@ -1,0 +1,213 @@
+<div class="keyboard">
+    <div class="row">
+        <button class="key" [class.pressed]="displayKeyPressed() == '`'">
+            `
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '1'">
+            1
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '2'">
+            2
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '3'">
+            3
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '4'">
+            4
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '5'">
+            5
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '6'">
+            6
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '7'">
+            7
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '8'">
+            8
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '9'">
+            9
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '0'">
+            0
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '-'">
+            -
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '='">
+            =
+        </button>
+        <button
+            class="key backspace"
+            [class.pressed]="displayKeyPressed() == 'backspace'"
+        >
+            backspace
+        </button>
+    </div>
+    <div class="row">
+        <button class="key tab" [class.pressed]="displayKeyPressed() == 'tab'">
+            tab
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'q'">
+            Q
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'w'">
+            W
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'e'">
+            E
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'r'">
+            R
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 't'">
+            T
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'y'">
+            Y
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'u'">
+            U
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'i'">
+            I
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'o'">
+            O
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'p'">
+            P
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '['">
+            [
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == ']'">
+            ]
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '\\'">
+            \ |
+        </button>
+    </div>
+    <div class="row">
+        <button
+            class="key caps"
+            [class.pressed]="displayKeyPressed() == 'caps'"
+        >
+            caps
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'a'">
+            A
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 's'">
+            S
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'd'">
+            D
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'f'">
+            F
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'g'">
+            G
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'h'">
+            H
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'j'">
+            J
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'k'">
+            K
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'l'">
+            L
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == ';'">
+            ;
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '\''">
+            '
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'enter'">
+            enter
+        </button>
+    </div>
+    <div class="row">
+        <button
+            class="key lshift"
+            [class.pressed]="displayKeyPressed() == 'leftshift'"
+        >
+            shift
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'z'">
+            Z
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'x'">
+            X
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'c'">
+            C
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'v'">
+            V
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'b'">
+            B
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'n'">
+            N
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'm'">
+            M
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == ','">
+            ,
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '.'">
+            .
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == '/'">
+            /
+        </button>
+        <button
+            class="key rshift"
+            [class.pressed]="displayKeyPressed() == 'rightshift'"
+        >
+            shift
+        </button>
+    </div>
+    <div class="row">
+        <button class="key" [class.pressed]="displayKeyPressed() == 'leftctrl'">
+            ctrl
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'leftalt'">
+            option
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'leftmeta'">
+            cmd
+        </button>
+        <button class="key space" [class.pressed]="displayKeyPressed() == ' '">
+            _____
+        </button>
+        <button
+            class="key"
+            [class.pressed]="displayKeyPressed() == 'rightmeta'"
+        >
+            cmd
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'rightalt'">
+            option
+        </button>
+        <button class="key" [class.pressed]="displayKeyPressed() == 'fn'">
+            fn
+        </button>
+        <button
+            class="key"
+            [class.pressed]="displayKeyPressed() == 'rightctrl'"
+        >
+            ctrl
+        </button>
+    </div>
+</div>
