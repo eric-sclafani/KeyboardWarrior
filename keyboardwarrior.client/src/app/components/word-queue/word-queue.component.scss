@@ -1,26 +1,26 @@
 .sentence-wrapper {
     display: flex;
-    gap: 8px;
+    gap: 7px;
     font-size: 1.7rem;
     color: rgb(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    width: 800px;
+
 }
 
 
 .current-char {
     text-decoration: underline;
-    font-weight: 600;
     color: black;
     animation: char-blink 1s infinite
 }
 
 .pressed-correct-char {
     color: green;
-    font-weight: bold;
 }
 
 .pressed-wrong-char {
     color: red;
-    font-weight: bold;
 }
 
 @keyframes char-blink {

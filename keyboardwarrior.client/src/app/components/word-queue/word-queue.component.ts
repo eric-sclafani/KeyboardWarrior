@@ -5,6 +5,7 @@ import {
     computed,
     effect,
     input,
+    model,
     signal,
 } from '@angular/core';
 
@@ -19,7 +20,7 @@ export class WordQueueComponent {
     inputSentence = input.required<string>();
     pressedKey = input.required<string | null>();
 
-    currentKeyIndex = signal(0);
+    currentKeyIndex = model(0);
     currentChar = computed(() => this.inputSentence()[this.currentKeyIndex()]);
     pressedIndexes: number[] = [];
 

@@ -1,8 +1,9 @@
 <main>
     <div class="word-queue-wrapper">
         <app-word-queue
-            [inputSentence]="sentences[0]"
+            [inputSentence]="sentences[1]"
             [pressedKey]="currentKey()"
+            [(currentKeyIndex)]="currentKeyIndex"
         ></app-word-queue>
     </div>
 
